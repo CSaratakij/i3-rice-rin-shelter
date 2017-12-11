@@ -1,0 +1,20 @@
+XTerm*termName: xterm-256color
+XTerm*foreground: white
+XTerm*background: black
+XTerm*locale: true
+
+!-------------------------
+! URXVT Terminal config
+! --------------------------
+URxvt*buffered: true
+URxvt*font: xft:RobotoMono:size=9:antialias=true
+URxvt.termName: rxvt-256color
+URxvt.letterSpace: -1
+URxvt.transparent: true
+URxvt.shading: 25
+URxvt.scrollBar: false
+URxvt.urlLauncher: firefox
+URxvt.foreground: #eeeeee
+URxvt.background: #000000
+URxvt.utf8: true
+URxvt.locale: true

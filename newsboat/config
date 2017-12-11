@@ -1,0 +1,24 @@
+# colors
+color background           color255 color0
+color listnormal           color255 color0
+color listfocus            color255 magenta bold
+color listnormal_unread    color255 color0 bold
+color listfocus_unread     yellow magenta bold
+#color info                 color31 color0
+color info                 white color0
+color article              color255 color0
+
+# highlights
+highlight article "^(Feed|Title|Link|Date|Author):.*$" magenta color0 
+highlight article "https?://[^ ]+" yellow color0 protect
+
+# generals
+confirm-exit yes
+browser firefox
+auto-reload yes
+cleanup-on-quit yes
+player mpv
+refresh-on-startup yes
+reload-time 20
+reload-threads 2
+notify-program notify-send
