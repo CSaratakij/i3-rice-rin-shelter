@@ -5,6 +5,7 @@
 ![powermenu_dialog](screenshots/powermenu_dialog.png)
 ![workspace 2](screenshots/workspace2.png)
 ![workspace 8](screenshots/workspace8.png)
+![lockscreen](screenshots/lockscreen.png)
 
 # Video Showcase
 - [video](https://youtu.be/Jn0nibjObqg)
