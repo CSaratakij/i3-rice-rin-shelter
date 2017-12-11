@@ -6,6 +6,7 @@
 ![workspace 2](screenshots/workspace2.png)
 ![workspace 8](screenshots/workspace8.png)
 ![lockscreen](screenshots/lockscreen.png)
+![screenfetch](screenshots/screenfetch.png)
 
 # Video Showcase
 - [video](https://youtu.be/Jn0nibjObqg)
