@@ -288,7 +288,7 @@ format-volume = <label-volume>
 label-volume = " %percentage%%"
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = ""
+format-muted-prefix = 
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = muted
 
