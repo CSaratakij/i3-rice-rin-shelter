@@ -76,6 +76,9 @@ exec conky -d &
 # Launch nm-applet
 exec nm-applet &
 
+# Launch terminal with screenfetch
+exec st -g 86x22+130+273 -ai -e greet.sh
+
 # Lock screen update picture cache
 exec ~/@3rdPartyPackages/betterlockscreen/lock.sh -u ~/Pictures/wallpaper/wallpaper.png &
 
