@@ -24,6 +24,10 @@ do
 done
 sleep 0.8;
 
+# Setup Workspace 5
+i3-msg "workspace 5; exec st -g 86x22+130+273 -ai -e greet.sh"
+sleep 0.8;
+
 # Setup Workspace 8
 i3-msg "workspace 8; exec st -ai -e alsamixer -g"
 sleep 0.8;
@@ -60,8 +64,8 @@ i3-msg "workspace 2; floating disable"
 i3-msg "resize grow left 6 px"
 i3-msg "resize grow left 6 px"
 
-# Back to Workspace 1
-i3-msg "workspace 1"
+# Back to Workspace 5
+i3-msg "workspace 5"
 
 #----------------------------------------#
 # Launch general app ....                #
@@ -75,9 +79,6 @@ exec conky -d &
 
 # Launch nm-applet
 exec nm-applet &
-
-# Launch terminal with screenfetch
-exec st -g 86x22+130+273 -ai -e greet.sh
 
 # Lock screen update picture cache
 exec ~/@3rdPartyPackages/betterlockscreen/lock.sh -u ~/Pictures/wallpaper/wallpaper.png &
