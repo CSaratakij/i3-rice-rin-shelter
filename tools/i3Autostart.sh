@@ -58,7 +58,7 @@ sleep 0.8;
 i3-msg "workspace 10; floating disable"
 
 # Late Workspace 2 Setup
-i3-msg "workspace 2; exec st -ai -e rtv --monochrome"
+i3-msg "workspace 2; exec st -ai -e rtv --monochrome -s linux"
 sleep 3;
 i3-msg "workspace 2; floating disable"
 i3-msg "resize grow left 6 px"
